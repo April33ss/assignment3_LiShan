@@ -51,7 +51,7 @@ library(ggplot2)
 library(Hmisc)
 data4 <-data2
 data4$a = cut2(data4$a, g=2)#Cut a Numeric Variable into Intervals
-table(data3$a)
+table(data4$a)
 
 ###################creat a factor variable##################################
 data2$fac <- factor(data2$Series_title_1)#Use the factor function for column "Series_title_1" as a new column 'fac'
